@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="libraries1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/CourseraGUI_JDBC/CourseraGUI/src/libraries/fontawesomefx-8.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/CourseraGUI_JDBC/CourseraGUI/src/libraries/jfoenix-8.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/CourseraGUI_JDBC/CourseraGUI/src/libraries/fontawesomefx-glyphsbrowser-all-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

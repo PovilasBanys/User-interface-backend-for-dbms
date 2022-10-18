@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<!--<AnchorPane xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxControl.DetaleInfo">-->
+
+<AnchorPane xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxControl.SurinkejasInfo">
+   <children>
+      <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="431.0" prefWidth="600.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="46.0" prefWidth="600.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Surinkėjo informacija">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="56.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Vardas" wrappingWidth="121.13671875" />
+                  <JFXTextField fx:id="vardasField" prefHeight="25.0" prefWidth="510.0" />
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="81.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Pavarde" wrappingWidth="121.13671875" />
+                  <JFXTextField fx:id="pavardeField" prefHeight="25.0" prefWidth="510.0" />
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="106.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Telefonas" wrappingWidth="121.13671875" />
+                  <JFXTextField fx:id="telefonasField" prefHeight="25.0" prefWidth="510.0" />
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="131.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Aprašymas" wrappingWidth="121.13671875" />
+                  <JFXTextField fx:id="aprasymasField" prefHeight="25.0" prefWidth="510.0" />
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="156.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Kaina" wrappingWidth="121.13671875" />
+                  <JFXTextField fx:id="kainaField" prefHeight="25.0" prefWidth="510.0" />
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <padding>
+                  <Insets bottom="10.0" left="100.0" right="100.0" top="30.0" />
+               </padding>
+               <children>
+                  <JFXButton onMouseClicked="#save" text="Išsaugoti">
+                     <HBox.margin>
+                        <Insets right="20.0" />
+                     </HBox.margin>
+                  </JFXButton>
+                  <JFXButton onMouseClicked="#clean" text="Išvalyti">
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                  </JFXButton>
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </VBox>
+   </children>
+</AnchorPane>

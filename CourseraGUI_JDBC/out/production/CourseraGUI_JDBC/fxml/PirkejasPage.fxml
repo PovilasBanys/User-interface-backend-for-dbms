@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<!--<AnchorPane prefHeight="401.0" prefWidth="1017.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxControl.DetalePage">-->
+
+<AnchorPane prefHeight="387.0" prefWidth="1069.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxControl.PirkejasPage">
+   <children>
+      <TableView fx:id="pirkejuTable" layoutX="48.0" layoutY="119.0" prefHeight="224.0" prefWidth="996.0">
+        <columns>
+          <TableColumn fx:id="registracijosNumerisCol" prefWidth="65.0" text="Numeris" />
+          <TableColumn fx:id="vardasCol" prefWidth="133.0" text="Vardas" />
+            <TableColumn fx:id="pavardeCol" prefWidth="150.0" text="Pavarde" />
+            <TableColumn fx:id="dataCol" prefWidth="129.0" text="Gimimo data" />
+            <TableColumn fx:id="saskaitaCol" prefWidth="191.0" text="Sąskaita" />
+            <TableColumn fx:id="telefonasCol" prefWidth="103.0" text="Telefonas" />
+            <TableColumn fx:id="adresasCol" prefWidth="134.0" text="Adresas" />
+            <TableColumn fx:id="editCol" prefWidth="90.0" />
+        </columns>
+      </TableView>
+      <Text layoutX="445.0" layoutY="58.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" text="Pirkėjų aprašas" wrappingWidth="136.478515625">
+         <font>
+            <Font name="AIGDT" size="20.0" />
+         </font>
+      </Text>
+      <Button layoutX="48.0" layoutY="66.0" mnemonicParsing="false" onAction="#backBtn" text="Atgal" />
+      <Button layoutX="117.0" layoutY="66.0" mnemonicParsing="false" onAction="#newBtn" text="Pridėti pirkėją" />
+      <Button layoutX="233.0" layoutY="66.0" mnemonicParsing="false" onAction="#refreshBtn" text="Atnaujinti sąrašą" />
+      <Button layoutX="367.0" layoutY="66.0" mnemonicParsing="false" onAction="#report" text="Ataskaita" />
+   </children>
+</AnchorPane>
