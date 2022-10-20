@@ -14,6 +14,20 @@ This program allows to:
 
 # Screenshots:
 
+Table section:
+
+![image](https://user-images.githubusercontent.com/109473854/197053902-273abfcd-8252-446c-b04f-7f07052d3430.png)
+
+Edit element section:
+
+![image](https://user-images.githubusercontent.com/109473854/197054107-221aed92-90e7-4f8b-ba9f-d677f324361e.png)
+
+Report example:
+
+![image](https://user-images.githubusercontent.com/109473854/197054425-99abf96c-da87-480b-a503-1ba53b9a8d59.png)
+
+
+
 
 
 
